@@ -40,6 +40,20 @@ or run
 make db-update
 ```
 
+## View packagelist
+
+run to view [packagelist](packagelist)
+
+``` sh
+less packagelist
+```
+
+or run
+
+``` sh
+view packagelist
+```
+
 
 ## Add Repository / Remote
 

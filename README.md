@@ -20,6 +20,21 @@ pacstall-demo-repository
 ```
 
 
+## Update Db
+
+run
+
+``` sh
+ls -1 packages > packagelist
+```
+
+or run
+
+``` sh
+make db-update
+```
+
+
 ## Add Repository
 
 run

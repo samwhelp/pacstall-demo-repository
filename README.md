@@ -35,7 +35,7 @@ make db-update
 ```
 
 
-## Add Repository
+## Add Repository / Remote
 
 run
 

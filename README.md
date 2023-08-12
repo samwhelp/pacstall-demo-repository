@@ -47,7 +47,7 @@ pacstall -A https://raw.githubusercontent.com/samwhelp/pacstall-demo-repository/
 run
 
 ``` sh
-pacstall -A https://raw.githubusercontent.com/samwhelp/pacstall-demo-repository/master
+cat /usr/share/pacstall/repo/pacstallrepo
 ```
 
 show

@@ -8,6 +8,11 @@ pacstall-demo-repository
 * Pacstall / Wiki / Pacscript 101 / [Example of script placement](https://github.com/pacstall/pacstall/wiki/Pacscript-101#pacscript-name)
 
 
+## Manpage
+
+* $ [man pacstall](https://github.com/samwhelp/pacstall-demo-repository/blob/master/helper/share/manpage/pacstall.md)
+
+
 ## Pacstall Pacscript Repository Structure
 
 

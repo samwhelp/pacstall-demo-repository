@@ -10,7 +10,7 @@ pacstall-demo-repository
 
 ## Manpage
 
-* $ [man pacstall](https://github.com/samwhelp/pacstall-demo-repository/blob/master/helper/share/manpage/pacstall.md)
+* $ [man pacstall](https://github.com/samwhelp/pacstall-demo-repository/blob/master/helper/share/manpage/pacstall.md#manpage)
 
 
 ## Pacstall Pacscript Repository Structure

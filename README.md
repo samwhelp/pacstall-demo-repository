@@ -5,7 +5,7 @@
 
 ## Link
 
-* Pacstall / [pacstall-programs](https://github.com/pacstall/pacstall-programs)
+* Pacstall / [pacstall-programs](https://github.com/pacstall/pacstall-programs#pacstall-programs)
 * Pacstall / Wiki / Pacscript 101 / [Example of script placement](https://github.com/pacstall/pacstall/wiki/Pacscript-101#pacscript-name)
 
 

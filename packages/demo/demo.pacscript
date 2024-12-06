@@ -13,7 +13,7 @@ pkgver () {
 
 	return 0
 }
-incompatible=("debian:*")
+#incompatible=("debian:*")
 
 
 

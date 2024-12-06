@@ -57,9 +57,13 @@ build () {
 	echo "pwd"
 	pwd
 
+	echo
+	echo mkdir -p "${srcdir}/usr/share/demo"
 	mkdir -p "${srcdir}/usr/share/demo"
 
 
+	echo
+	echo touch "${srcdir}/README.md"
 	touch "${srcdir}/README.md"
 
 	echo "tree ${srcdir}"
@@ -77,6 +81,7 @@ package () {
 	echo "##"
 	echo
 
+	echo install -Dm644 "${srcdir}/README.md" "${pkgdir}/usr/share/demo/README.md"
 	install -Dm644 "${srcdir}/README.md" "${pkgdir}/usr/share/demo/README.md"
 
 	echo 'done'
@@ -90,9 +95,9 @@ package () {
 
 post_install () {
 
-	mkdir -p "${homedir}/.demo"
+	#mkdir -p "${homedir}/.demo"
 
-	cp -rf /usr/share/demo/. "${homedir}/.demo"
+	#cp -rf /usr/share/demo/. "${homedir}/.demo"
 
 	return 0
 

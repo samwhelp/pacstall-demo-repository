@@ -1,4 +1,4 @@
-pkgbase="demo"
+pkgname="demo"
 url="https://github.com/samwhelp/pacstall-demo-repository/raw/master/helper/share/asset/empty.tar.gz"
 pkgver="0.0.1"
 depends=()

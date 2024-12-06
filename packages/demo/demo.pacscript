@@ -57,7 +57,7 @@ build () {
 	echo "pwd"
 	pwd
 
-	sudo mkdir -p "${srcdir}/usr/share/demo"
+	mkdir -p "${srcdir}/usr/share/demo"
 
 
 	touch "${srcdir}/README.md"
@@ -77,7 +77,7 @@ package () {
 	echo "##"
 	echo
 
-	sudo install -Dm644 "${srcdir}/README.md" "${pkgdir}/usr/share/demo/README.md"
+	install -Dm644 "${srcdir}/README.md" "${pkgdir}/usr/share/demo/README.md"
 
 	echo 'done'
 

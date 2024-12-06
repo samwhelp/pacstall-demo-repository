@@ -95,9 +95,9 @@ package () {
 
 post_install () {
 
-	#mkdir -p "${homedir}/.demo"
+	mkdir -p "${homedir}/.demo"
 
-	#cp -rf /usr/share/demo/. "${homedir}/.demo"
+	cp -rf /usr/share/demo/. "${homedir}/.demo"
 
 	return 0
 
